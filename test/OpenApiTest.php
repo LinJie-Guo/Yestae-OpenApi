@@ -6,9 +6,9 @@ use Yestae\OpenApi\OpenApi;
 
 // 加载配置
 $conf = [
-    'app_id' => '1130734893714997249',                          // app id
-    'mch_id' => '1130734379656904706',                          // mch id
-    'app_secret' => '66730F412DB80CE05CD29E925BE47B3C',         // secret
+    'app_id' => 'xxx',                          // app id
+    'mch_id' => 'xxx',                          // mch id
+    'app_secret' => 'xxx',         // secret
     'interface_url' => 'https://openapi-test.yestae.com/api',   // 接口地址
 ];
 
