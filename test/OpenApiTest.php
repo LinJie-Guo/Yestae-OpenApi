@@ -1,19 +1,4 @@
-# 大益商城-开放接口
-
-## 安装
-1. 修改项目下的composer.json文件，并添加：  
-```
-    "yestae/openapi":"1.*"
-```
-
-2. 或者 执行composer命令安装
-```
-composer require yestae/openapi 
-```
-
-
-## 使用
-```
+<?php
 
 require_once '../vendor/autoload.php';
 
@@ -21,10 +6,10 @@ use Yestae\OpenApi\OpenApi;
 
 // 加载配置
 $conf = [
-    'app_id' => 'xxx',                          // app id
-    'mch_id' => 'xxx',                          // mch id
-    'app_secret' => 'xxx',         // secret
-    'interface_url' => 'xxx',   // 接口地址
+    'app_id' => '1130734893714997249',                          // app id
+    'mch_id' => '1130734379656904706',                          // mch id
+    'app_secret' => '66730F412DB80CE05CD29E925BE47B3C',         // secret
+    'interface_url' => 'https://openapi-test.yestae.com/api',   // 接口地址
 ];
 
 
@@ -78,4 +63,3 @@ array(8) {
 }
 
  */
-```
