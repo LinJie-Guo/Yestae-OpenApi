@@ -1,6 +1,6 @@
 {
     "name": "yestae/openapi",
-    "description": "益友会科技有限公司开发接口，OpenAPI，一个轻量级PHP包",
+    "description": "益友会科技有限公司开放接口，OpenAPI，一个轻量级PHP包",
     "keywords": [
         "taetea", "yestae", "yestae-openapi" , "taetea-openapi", "taetea-user-center", "www.yestae.com", "yestae.com", "openapi.yestae.com"
     ],
