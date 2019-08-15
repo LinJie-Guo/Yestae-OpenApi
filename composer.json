@@ -1,0 +1,27 @@
+{
+    "name": "yestae/openapi",
+    "description": "益友会科技有限公司开发接口，OpenAPI，一个轻量级PHP包",
+    "keywords": [
+        "taetea", "yestae", "yestae-openapi" , "taetea-openapi", "taetea-user-center", "www.yestae.com", "yestae.com", "openapi.yestae.com"
+    ],
+    "license": "GPL-3.0+",
+    "homepage": "https://www.yestae.com/",
+    "type": "library",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "yestae",
+            "email": "guolinjie@yestae.com",
+            "homepage": "https://www.yestae.com/",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.23"
+    },
+    "autoload": {
+        "psr-4": {
+            "Yestae\\OpenApi\\": "src"
+        }
+    } 
+}
